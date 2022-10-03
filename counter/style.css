@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    margin: 10rem auto;
+}
+
+.counter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.counter h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.2rem 0.7rem;
+    border-width: 0.09rem;
+    border-radius: 0.3rem;
+    margin: auto 0.5rem;
+    cursor: pointer;
+}
